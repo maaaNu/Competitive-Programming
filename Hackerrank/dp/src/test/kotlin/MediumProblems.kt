@@ -1,6 +1,6 @@
-import BeginnerProblems.coinChangeProblem
-import BeginnerProblems.chocolateEqual
-import BeginnerProblems.sherlockAndCost
+import MediumProblems.coinChangeProblem
+import MediumProblems.chocolateEqual
+import MediumProblems.sherlockAndCost
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.MethodSource
 import java.math.BigInteger
 
-class BeginnerProblemsTests {
+class MediumProblemsTests {
 
     @ParameterizedTest
     @MethodSource("coinChangeProblemParameter")

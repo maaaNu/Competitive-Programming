@@ -10,3 +10,5 @@ gen
 target
 ### Scala template
 *.log
+
+.gradle

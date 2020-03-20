@@ -15,7 +15,7 @@ object Recursion {
   }
 
   def pascalTri(rows: Int): List[List[Int]] = (0 to rows toList).map(index => {
-    (0 to index toList).map(column => pascalVal(index, column))
+    (0 to index).toList.map(column => pascalVal(index, column))
   })
 
   def pascalTriNewRow(lastRow: List[Int]): List[Int] = 1 +: lastRow.zip(lastRow.drop(1)).map(x => x._1 + x._2) :+ 1
